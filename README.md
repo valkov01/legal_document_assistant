@@ -1,6 +1,8 @@
 # Legal Document Assistant
 
-**This repository was used for the Streamlit Deployment. Here is the link to the [Legal Document Assistant](https://legaldocumentassistant-4swnagomyzzgbkj6sdmrsq.streamlit.app/)**.
+This repository was used for the Streamlit Deployment. Here is the link to the **[Legal Document Assistant](https://legaldocumentassistant-4swnagomyzzgbkj6sdmrsq.streamlit.app/)**.
+
+If you want to test the program, but don't have a legal file to use, feel free to download *constitution.pdf* file from the repository. After uploading and processing the file, you can ask the chatbot questions about it.
 
 ## Design Challenge
 
