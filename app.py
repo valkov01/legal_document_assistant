@@ -1,5 +1,5 @@
 import streamlit as st # used for building web app
-from dotenv import load_dotenv # used for loading env variables
+# from dotenv import load_dotenv # used for loading env variables
 from PyPDF2 import PdfReader # used for reading pdf files
 from langchain.text_splitter import CharacterTextSplitter # used for splitting text into chunks
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings # used for creating vector store (using OpenAI, online) (using HuggingFace, locally)
@@ -65,7 +65,7 @@ def handle_userinput(user_question):
             st.write(bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True)
 
 def main():
-    load_dotenv()
+    # load_dotenv()
     st.set_page_config(page_title='Legal Problems Assistant', page_icon=':page_facing_up:')
     st.write(css, unsafe_allow_html=True)
 
